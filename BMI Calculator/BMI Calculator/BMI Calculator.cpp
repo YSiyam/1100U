@@ -1,7 +1,7 @@
 // BMI Calculator.cpp : Defines the entry point for the console application.
 
 
-//Assignment 1
+//Assignment 1 completed on 9/22/2016
 //Name: Yazan Siyam
 //Student Number: 100622746
 
