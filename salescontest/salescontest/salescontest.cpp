@@ -20,7 +20,7 @@ int main()
 		{
 			std::cout << "enter a number greater than 0 \n";
 			std::cin >> number;
-			if (number <= 0) {  //this tells the user that negative numbers aren't allowed if he puts a number less than 0
+			if (number <= 0) { //this tells the user that negative numbers aren't allowed if he puts a number less than 0
 				std::cout << "negative numbers and 0 are not allowed \n";
 			}
 		}
@@ -36,8 +36,5 @@ int main()
 	std::cout << " \n \n \n \n \n the largest number you entered is:   " << largest << std::endl; //this displays the largest number after the program is done
 	system("pause");
 
-    return 0;
+	return 0;
 }
-
-
-
