@@ -10,16 +10,20 @@ int main()
 
 	//this is where I initialize my variables
 	int counter = 1;
-	int number = 0;
-	int largest = 0;
+	double number = 0; //set as double because of limits on ints
+	double largest = 0; //same reason as above ^
 
 	//this is the program itself
+	std::cout << "you will enter 10 numbers and I will return the largest one! \n"; //tells the user what is going on
+
 	while (counter < 11) //this loop is to make sure that 10 numbers are put
 	{
 		while (number <= 0) //this makes sure that only numbers above 0 are put, if the user puts a number less than 0 the while loop repeats
 		{
 			std::cout << "enter a number greater than 0 \n";
 			std::cin >> number;
+			std::cin.clear();
+
 			if (number <= 0) { //this tells the user that negative numbers aren't allowed if he puts a number less than 0
 				std::cout << "negative numbers and 0 are not allowed \n";
 			}
