@@ -1,0 +1,28 @@
+0.txt
+score: 716100
+1.txt
+score: 759360
+2.txt
+score: 498330
+3.txt
+score: 1037610
+4.txt
+score: 643440
+5.txt
+score: 201180
+6.txt
+score: 3944430
+7.txt
+score: 5041050
+8.txt
+score: 637770
+9.txt
+score: 490770
+10.txt
+score: 221550
+11.txt
+score: 284340
+12.txt
+score: 5100480
+13.txt
+score: 4427430
